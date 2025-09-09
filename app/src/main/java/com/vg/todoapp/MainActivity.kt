@@ -39,7 +39,7 @@ fun TodoApp() {
         Column(modifier = Modifier.padding(16.dp)) {
             Text(
                 "My Simple To-Do",
-                style = MaterialTheme.typography.titleLarge   // ✅ Material 3 style
+                style = MaterialTheme.typography.titleLarge  
             )
             Spacer(modifier = Modifier.height(8.dp))
             TodoScreen()
